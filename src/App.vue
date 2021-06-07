@@ -1,16 +1,16 @@
 <template>
   <!---------------------------------  Header -------------------------------------->
   <header class="h-screen px-40 py-12 flex flex-col justify-between items-center">
-    <img id="logo-img" alt="Logo" class="w-1/4">
+    <img :src="logoImg" alt="Logo" class="w-1/4">
     <div class="flex justify-between items-end h-1/2">
       <div class="w-2/5">
         <h2>Entrez dans l'aventure !</h2>
         <p class="my-8">TooDoo Home Adventures vous attend dès maintenant. Venez aider les TooDoos à retrouver la paix sur leur îles en transformant la poussière en énergie ! </p>
         <a href="" class="Button rounded-xl py-2 px-10 inline-block">C'est parti !</a>
       </div>
-      <img id="intro-img" alt="Intro Toodoo" class="w-1/2">
+      <img :src="introImg" alt="Intro Toodoo" class="w-1/2">
     </div>
-    <a href="" class="inline-block"><img id="scroll-down-img" alt="Voir plus"></a>
+    <a href="" class="inline-block"><img :src="scrollDownImg" alt="Voir plus"></a>
   </header>
 
   <main class="px-40">
@@ -22,19 +22,19 @@
       </div>
       <div class="world--container flex justify-between items-end mt-24">
         <div class="world--container__item">
-          <img id="enchanted-forest-img" alt="La forêt enchantée">
+          <img :src="enchantedForestImg" alt="La forêt enchantée">
           <p>La forêt enchantée</p>
         </div>
         <div class="world--container__item">
-          <img id="submarine-world-img" alt="Le monde sous-marin">
+          <img :src="submarineWorldImg" alt="Le monde sous-marin">
           <p>Le monde sous-marin</p>
         </div>
         <div class="world--container__item">
-          <img id="big-iceberg-img" alt="Le grand iceberg">
+          <img :src="bigIcebergImg" alt="Le grand iceberg">
           <p>Le grand iceberg</p>
         </div>
         <div class="world--container__item">
-          <img id="sand-dunes-img" alt="Les Dunes de sable">
+          <img :src="sandDunesImg" alt="Les Dunes de sable">
           <p>Les Dunes de sable</p>
         </div>
       </div>
@@ -42,20 +42,20 @@
 
     <!---------------------------------  Help TooDoos -------------------------------------->
     <section class="flex justify-between items-center">
-      <div class="absolute top-1/2 left-1/2 translate-x-y-center w-120">
-        <img id="form-bg-first-img" alt="">
+      <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 scale-300 -z-1">
+        <img :src="shapeBgFirstImg" alt="">
       </div>
       <div class="w-2/5">
         <h2 class="mb-8">Aidez les TooDoos !</h2>
         <p class="mb-6">Ces adorables petites créatures sont les autochtones des îles de l’archipel, à mi-chemin entre des êtres imaginaires et des animaux.</p>
         <p>Pour aider les TooDoos à retrouver leur vie paisible perdue, il vous faudra réaliser les tâches ménagères de votre foyer. Partez à la découverte de leur lieux de vie et transformez la poussière en énergie ! </p>
       </div>
-      <img id="toodoos-img" alt="Présentation des TooDoos" class="w-1/2">
+      <img :src="toodoosImg" alt="Présentation des TooDoos" class="w-1/2">
     </section>
 
     <!---------------------------------  Electros -------------------------------------->
     <section class="flex justify-between items-center">
-      <img id="electros-img" alt="Présentation des Electros" class="w-1/2">
+      <img :src="electrosImg" alt="Présentation des Electros" class="w-1/2">
       <div class="w-2/5">
         <h2 class="mb-8">A chasser les Electros</h2>
         <p>Débarqué sur l’île sans prévenir au milieu d’une tempête de poussière, c’est grâce à l’énergie cumulé par votre famille tout au long de la semaine que vous parviendrez à battre les électros à chaque fin de semaine !
@@ -75,6 +75,9 @@
 
     <!---------------------------------  Team -------------------------------------->
     <section>
+      <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 scale-300 -z-1">
+        <img :src="shapeBgSecondImg" alt="">
+      </div>
       <div class="w-1/3">
         <h2>Qui sommes-nous ?</h2>
         <p class="mt-8">Etudiants aux Campus Gobelins Annecy, nous sommes une équipe de 3 développeurs et 3 designers. Equipe passionnée où la bonne humeur est toujours au rendez-vous.</p>
@@ -83,32 +86,32 @@
         <div class="glide__track" data-glide-el="track">
           <ul class="glide__slides">
             <li class="glide__slide">
-              <img id="leo-img" alt="">
+              <img :src="leoImg" alt="">
               <h3>Léo</h3>
               <h4>Développeur</h4>
               <p>De talent</p></li>
             <li class="glide__slide">
-              <img id="maelys-img" alt="">
+              <img :src="maelysImg" alt="">
               <h3>Maelys</h3>
               <h4>Designer</h4>
               <p>De talent</p></li>
             <li class="glide__slide">
-              <img id="vincent-img" alt="">
+              <img :src="vincentImg" alt="">
               <h3>Vincent</h3>
               <h4>Développeur</h4>
               <p>De talent</p></li>
             <li class="glide__slide">
-              <img id="clothilde-img" alt="">
+              <img :src="clothildeImg" alt="">
               <h3>Clothilde</h3>
               <h4>Designer</h4>
               <p>De talent</p></li>
             <li class="glide__slide">
-              <img id="johann-img" alt="">
+              <img :src="johannImg" alt="">
               <h3>Johann</h3>
               <h4>Développeur</h4>
               <p>De talent</p></li>
             <li class="glide__slide">
-              <img id="romain-img" alt="">
+              <img :src="romainImg" alt="">
               <h3>Romain</h3>
               <h4>Designer</h4>
               <p>De talent</p></li>
@@ -129,14 +132,14 @@
 
   <!---------------------------------  Footer -------------------------------------->
   <footer class="flex justify-center py-28">
-    <img id="gobelins-img" alt="Logo Ecole Gobelins" class="mr-24">
+    <img :src="gobelinsImg" alt="Logo Ecole Gobelins" class="mr-24">
     <div class="flex flex-col justify-center">
       <a href="" class="inline-block flex items-center mb-4">
-        <img id="logo-internet-img" alt="Logo Web" class="mr-4">
+        <img :src="logoInternetImg" alt="Logo Web" class="mr-4">
         <p>toodooapp.com</p>
       </a>
       <a href="" class="inline-block flex items-center">
-        <img id="logo-instagram-img" alt="Logo Instagram" class="mr-4">
+        <img :src="logoInstagramImg" alt="Logo Instagram" class="mr-4">
         <p>toodoo_app</p>
       </a>
     </div>
@@ -146,15 +149,36 @@
 <script setup>
 // This starter template is using Vue 3 experimental <script setup> SFCs
 // Check out https://github.com/vuejs/rfcs/blob/script-setup-2/active-rfcs/0000-script-setup.md
+
+//Import images
+import logoImg from './assets/img/logo.png'
+import introImg from './assets/img/intro.png'
+import scrollDownImg from './assets/img/scroll-down.png'
+import enchantedForestImg from './assets/img/enchanted-forest.png'
+import submarineWorldImg from './assets/img/submarine-world.png'
+import bigIcebergImg from './assets/img/big-iceberg.png'
+import sandDunesImg from './assets/img/sand-dunes.png'
+import toodoosImg from './assets/img/toodoos.png'
+import electrosImg from './assets/img/electros.png'
+import leoImg from './assets/img/leo.png'
+import maelysImg from './assets/img/maelys.png'
+import vincentImg from './assets/img/vincent.png'
+import clothildeImg from './assets/img/clothilde.png'
+import johannImg from './assets/img/johann.png'
+import romainImg from './assets/img/romain.png'
+import gobelinsImg from './assets/img/gobelins.png'
+import logoInternetImg from './assets/img/logo-internet.svg'
+import logoInstagramImg from './assets/img/logo-instagram.svg'
+import shapeBgFirstImg from './assets/img/shape-bg1.svg'
+import shapeBgSecondImg from './assets/img/shape-bg2.svg'
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'LeagueSpartan', Avenir, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: white;
+  overflow: hidden;
 }
 </style>
