@@ -9,6 +9,12 @@
   src: url("assets/fonts/TTDongwhacaekR_2.otf") format("truetype"),
 }
 
+@import "node_modules/@glidejs/glide/src/assets/sass/glide.core";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html, body {
   margin: 0;
   padding: 0;
@@ -17,10 +23,11 @@ html, body {
 body {
   background: rgb(2,0,36);
   background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(31,10,98,1) 0%, rgba(110,98,180,1) 75%, rgba(181,177,254,1) 100%);
+  overflow-x: hidden;
 }
 
 section {
-  padding: 7rem 0;
+  padding: 7rem 10rem;
   position: relative;
 }
 
@@ -72,9 +79,3 @@ h2, h3, h4 {
 .translate-x-y-center {
   transform: translateY(-50%) translateX(-50%);
 }
-
-@import "node_modules/@glidejs/glide/src/assets/sass/glide.core";
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;

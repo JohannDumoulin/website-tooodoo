@@ -1,6 +1,9 @@
 <template>
   <!---------------------------------  Header -------------------------------------->
   <header class="h-screen px-40 py-12 flex flex-col justify-between items-center">
+    <div class="absolute -top-28 -left-28 -z-1">
+      <img :src="shapeFirstImg" alt="">
+    </div>
     <img :src="logoImg" alt="Logo" class="w-1/4">
     <div class="flex justify-between items-end h-1/2">
       <div class="w-2/5">
@@ -13,9 +16,15 @@
     <a href="" class="inline-block"><img :src="scrollDownImg" alt="Voir plus"></a>
   </header>
 
-  <main class="px-40">
+  <main>
     <!---------------------------------  World Container -------------------------------------->
     <section>
+      <div class="absolute -top-72 -right-28 -z-1">
+        <img :src="shapeSecondImg" alt="">
+      </div>
+      <div class="absolute top-72 -left-48 -z-1">
+        <img :src="shapeThirdImg" alt="">
+      </div>
       <div class="w-1/3 mx-auto">
         <h2 class="text-center mb-8">Pendant 4 semaines</h2>
         <p>Vous avez 1 mois pour explorer les 4 îles et réaliser les missions présentes sur chacune d’elles ! Passez d’un univers désertique à un univers sous-marin, en traversant la forêt enchantée, sans oublier le monde glacial !</p>
@@ -42,7 +51,7 @@
 
     <!---------------------------------  Help TooDoos -------------------------------------->
     <section class="flex justify-between items-center">
-      <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 scale-300 -z-1">
+      <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 scale-300 -z-10">
         <img :src="shapeBgFirstImg" alt="">
       </div>
       <div class="w-2/5">
@@ -55,6 +64,9 @@
 
     <!---------------------------------  Electros -------------------------------------->
     <section class="flex justify-between items-center">
+      <div class="absolute -top-80 -right-12 -z-1">
+        <img :src="shapeFourthImg" alt="">
+      </div>
       <img :src="electrosImg" alt="Présentation des Electros" class="w-1/2">
       <div class="w-2/5">
         <h2 class="mb-8">A chasser les Electros</h2>
@@ -65,8 +77,11 @@
 
     <!---------------------------------  Video -------------------------------------->
     <section>
+<!--      <div class="absolute -top-80 -left-32 -z-1">-->
+<!--        <img :src="shapeFifthImg" alt="">-->
+<!--      </div>-->
       <h2 class="text-center">Mais comment ça se passe ? </h2>
-      <video controls width="250" class="mx-auto mt-16">
+      <video controls width="1356" class="mx-auto mt-16">
         <source src="/media/cc0-videos/flower.mp4"
                 type="video/mp4">
         Sorry, your browser doesn't support embedded videos.
@@ -75,7 +90,7 @@
 
     <!---------------------------------  Team -------------------------------------->
     <section>
-      <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 scale-300 -z-1">
+      <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 scale-250 -z-20">
         <img :src="shapeBgSecondImg" alt="">
       </div>
       <div class="w-1/3">
@@ -122,8 +137,14 @@
 
     <!---------------------------------  Concept -------------------------------------->
     <section>
+      <div class="absolute -top-80 -right-72 -z-1">
+        <img :src="shapeSixthImg" alt="">
+      </div>
+      <div class="absolute top-32 -left-72 -z-1">
+        <img :src="shapeSeventhImg" alt="">
+      </div>
       <div class="w-1/2 mx-auto">
-        <h2 class="text-center">Mais comment ça se passe ? </h2>
+        <h2 class="text-center">Notre concept</h2>
         <p class="mt-8 mb-6">Afin d’aider les familles avec enfants dans l’organisation et la répartition des tâches au sein du foyer, nous proposons une expérience vidéoludique quotidienne qui dure 1 mois.</p>
         <p>Le but de ce jeu est de rassembler l’ensemble des membres de la famille, quelque-soit leur âge, autour d’un objectif commun dans la réalisation de ces tâches. Ainsi, fini la guerre entre enfants et parents pour que chacun effectue ses tâches quotidiennes. </p>
       </div>
@@ -171,6 +192,13 @@ import logoInternetImg from './assets/img/logo-internet.svg'
 import logoInstagramImg from './assets/img/logo-instagram.svg'
 import shapeBgFirstImg from './assets/img/shape-bg1.svg'
 import shapeBgSecondImg from './assets/img/shape-bg2.svg'
+import shapeFirstImg from './assets/img/shape1.svg'
+import shapeSecondImg from './assets/img/shape2.svg'
+import shapeThirdImg from './assets/img/shape3.svg'
+import shapeFourthImg from './assets/img/shape4.svg'
+import shapeFifthImg from './assets/img/shape5.svg'
+import shapeSixthImg from './assets/img/shape6.svg'
+import shapeSeventhImg from './assets/img/shape7.svg'
 </script>
 
 <style>
