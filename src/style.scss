@@ -27,12 +27,28 @@ body {
 }
 
 section {
-  padding: 7rem 10rem;
+  padding: 7rem 2rem;
   position: relative;
+
+  @screen sm {
+    padding: 7rem 4rem;
+  }
+
+  @screen md {
+    padding: 7rem 7rem;
+  }
+
+  @screen lg {
+    padding: 7rem 10rem;
+  }
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 20px;
+
+  @screen lg {
+    font-size: 30px;
+  }
 }
 
 h2, h3, h4 {

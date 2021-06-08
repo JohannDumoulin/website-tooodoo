@@ -1,23 +1,24 @@
 <template>
   <!---------------------------------  Header -------------------------------------->
-  <header class="h-screen px-40 py-12 flex flex-col justify-between items-center">
-    <div class="absolute -top-28 -left-28 -z-1">
+  <header class="h-screen px-8 sm:px-16 md:px-28 lg:px-40 py-12 flex flex-col lg:justify-between items-center">
+    <div class="absolute origin-top-left -top-12 xl:-top-28 left-0 xl:-left-28 -z-1 transform scale-75 sm:scale-50 xl:scale-100">
       <img :src="shapeFirstImg" alt="">
     </div>
-    <img :src="logoImg" alt="Logo" class="w-1/4">
-    <div class="flex justify-between items-end h-1/2">
-      <div class="w-2/5">
+    <img :src="logoImg" alt="Logo" class="w-1/2 sm:w-1/4">
+    <div class="flex flex-col-reverse lg:flex-row justify-between items-end lg:h-1/2">
+      <div class="lg:w-2/5">
         <h2>Entrez dans l'aventure !</h2>
         <p class="my-8">TooDoo Home Adventures vous attend dès maintenant. Venez aider les TooDoos à retrouver la paix sur leur îles en transformant la poussière en énergie ! </p>
         <a href="" class="Button rounded-xl py-2 px-10 inline-block">C'est parti !</a>
       </div>
-      <img :src="introImg" alt="Intro Toodoo" class="w-1/2">
+      <img :src="introImg" alt="Intro Toodoo" class="sm:w-1/2 mx-auto">
     </div>
-    <a href="" class="inline-block"><img :src="scrollDownImg" alt="Voir plus"></a>
+    <a href="" class="hidden sm:inline-block"><img :src="scrollDownImg" alt="Voir plus"></a>
+    <a href="" class="absolute bottom-4 xl:bottom-6 right-2 xl:right-4 transform scale-50 xl:scale-75"><img :src="playstoreImg" alt=""></a>
   </header>
 
   <main>
-    <!---------------------------------  World Container -------------------------------------->
+    <!---------------------------------  World Container ------------------------------------->
     <section>
       <div class="absolute -top-72 -right-28 -z-1">
         <img :src="shapeSecondImg" alt="">
@@ -55,7 +56,7 @@
         <img :src="shapeBgFirstImg" alt="">
       </div>
       <div class="w-2/5">
-        <h2 class="mb-8">Aidez les TooDoos !</h2>
+        <h2 class="mb-8">Aidez les TooDoos...</h2>
         <p class="mb-6">Ces adorables petites créatures sont les autochtones des îles de l’archipel, à mi-chemin entre des êtres imaginaires et des animaux.</p>
         <p>Pour aider les TooDoos à retrouver leur vie paisible perdue, il vous faudra réaliser les tâches ménagères de votre foyer. Partez à la découverte de leur lieux de vie et transformez la poussière en énergie ! </p>
       </div>
@@ -199,6 +200,7 @@ import shapeFourthImg from './assets/img/shape4.svg'
 import shapeFifthImg from './assets/img/shape5.svg'
 import shapeSixthImg from './assets/img/shape6.svg'
 import shapeSeventhImg from './assets/img/shape7.svg'
+import playstoreImg from './assets/img/playstore.svg'
 </script>
 
 <style>
