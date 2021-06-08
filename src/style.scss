@@ -65,16 +65,46 @@ h2, h3, h4 {
 
 .world--container {
   .world--container__item {
+    width: 100%;
     margin: 0 2rem 3rem 2rem;
 
+    &:nth-child(2n) {
+      p {
+        text-align: right;
+        margin-left: 0;
+        margin-right: auto;
+
+        @screen sm {
+          text-align: center;
+          margin: 0;
+        }
+      }
+    }
+
+    @screen lg {
+      width: 40%;
+    }
+
+    @screen lg {
+      width: 25%;
+    }
+
     img {
-      margin-bottom: 40px;
+      margin: 0 auto 40px auto;
     }
 
     p {
-      text-align: center;
+      width: 50%;
+      text-align: left;
       font-size: 18px;
       font-weight: 700;
+      margin-left: auto;
+
+      @screen sm {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+      }
     }
   }
 }
