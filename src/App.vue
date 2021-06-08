@@ -1,17 +1,17 @@
 <template>
   <!---------------------------------  Header -------------------------------------->
-  <header class="h-screen px-8 sm:px-16 md:px-28 lg:px-40 py-12 flex flex-col lg:justify-between items-center">
+  <header class="h-screen px-8 sm:px-16 md:px-28 lg:px-40 py-12 flex flex-col sm:justify-between items-center">
     <div class="absolute origin-top-left -top-12 xl:-top-28 left-0 xl:-left-28 -z-1 transform scale-75 sm:scale-50 xl:scale-100">
       <img :src="shapeFirstImg" alt="">
     </div>
     <img :src="logoImg" alt="Logo" class="w-1/2 sm:w-1/4">
-    <div class="flex flex-col-reverse lg:flex-row justify-between items-end lg:h-1/2">
+    <div class="flex flex-col-reverse lg:flex-row justify-between items-end lg:h-1/2 my-auto sm:my-0">
       <div class="lg:w-2/5">
         <h2>Entrez dans l'aventure !</h2>
         <p class="my-8">TooDoo Home Adventures vous attend dès maintenant. Venez aider les TooDoos à retrouver la paix sur leur îles en transformant la poussière en énergie ! </p>
         <a href="" class="Button rounded-xl py-2 px-10 inline-block">C'est parti !</a>
       </div>
-      <img :src="introImg" alt="Intro Toodoo" class="sm:w-1/2 mx-auto">
+      <img :src="introImg" alt="Intro Toodoo" class="mb-8 lg:mb-0 sm:w-1/2 mx-auto">
     </div>
     <a href="" class="hidden sm:inline-block"><img :src="scrollDownImg" alt="Voir plus"></a>
     <a href="" class="absolute bottom-4 xl:bottom-6 right-2 xl:right-4 transform scale-50 xl:scale-75"><img :src="playstoreImg" alt=""></a>
@@ -20,17 +20,17 @@
   <main>
     <!---------------------------------  World Container ------------------------------------->
     <section>
-      <div class="absolute -top-72 -right-28 -z-1">
+      <div class="absolute origin-top-left -top-40 xl:-top-72 -right-52 xl:-right-28 -z-1 transform scale-50 xl:scale-100">
         <img :src="shapeSecondImg" alt="">
       </div>
-      <div class="absolute top-72 -left-48 -z-1">
+      <div class="absolute origin-top-left top-72 -left-72 sm:-left-48 -z-1">
         <img :src="shapeThirdImg" alt="">
       </div>
-      <div class="w-1/3 mx-auto">
+      <div class="w-full md:w-1/2 lg:w-1/3 mx-auto">
         <h2 class="text-center mb-8">Pendant 4 semaines</h2>
         <p>Vous avez 1 mois pour explorer les 4 îles et réaliser les missions présentes sur chacune d’elles ! Passez d’un univers désertique à un univers sous-marin, en traversant la forêt enchantée, sans oublier le monde glacial !</p>
       </div>
-      <div class="world--container flex justify-between items-end mt-24">
+      <div class="world--container flex flex-wrap 2xl:flex-nowrap justify-center items-end mt-24">
         <div class="world--container__item">
           <img :src="enchantedForestImg" alt="La forêt enchantée">
           <p>La forêt enchantée</p>
