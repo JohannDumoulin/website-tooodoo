@@ -154,7 +154,7 @@
   </main>
 
   <!---------------------------------  Footer -------------------------------------->
-  <footer class="flex flex-col md:flex-row justify-center px-8 sm:px-16 md:px-28 lg:px-40 py-28">
+  <footer class="flex flex-col md:flex-row justify-center px-8 sm:px-16 md:px-28 lg:px-40 py-16 sm:py-28">
     <img :src="gobelinsImg" alt="Logo Ecole Gobelins" class="w-3/4 sm:w-1/2 md:w-auto md:mr-24 mx-auto mb-16 md:mb-0">
     <div class="flex flex-col justify-center md:w-auto mx-auto w-fit">
       <a href="" class="flex items-center mb-4 w-fit">
