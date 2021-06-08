@@ -52,7 +52,7 @@
 
     <!---------------------------------  Help TooDoos -------------------------------------->
     <section class="flex flex-col lg:flex-row justify-between items-center">
-      <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 scale-300 -z-10">
+      <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 scale-400 sm:scale-300 -z-10">
         <img :src="shapeBgFirstImg" alt="">
       </div>
       <div class="w-full sm:w-3/4 lg:w-2/5">
@@ -91,7 +91,7 @@
 
     <!---------------------------------  Team -------------------------------------->
     <section>
-      <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 scale-250 -z-20">
+      <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 scale-400 sm:scale-250 -z-20">
         <img :src="shapeBgSecondImg" alt="">
       </div>
       <div class="w-full sm:w-3/4 md:w-1/2 lg:w-1/3">
