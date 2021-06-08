@@ -64,12 +64,12 @@
     </section>
 
     <!---------------------------------  Electros -------------------------------------->
-    <section class="flex justify-between items-center">
-      <div class="absolute -top-80 -right-12 -z-1">
+    <section class="flex flex-col-reverse lg:flex-row justify-between items-center">
+      <div class="absolute -top-80 -right-24 xl:-right-12 -z-1 transform scale-50 xl:scale-100">
         <img :src="shapeFourthImg" alt="">
       </div>
-      <img :src="electrosImg" alt="Présentation des Electros" class="w-1/2">
-      <div class="w-2/5">
+      <img :src="electrosImg" alt="Présentation des Electros" class="w-full sm:w-3/4 lg:w-1/2 mt-14 lg:mt-0">
+      <div class="w-full sm:w-3/4 lg:w-2/5">
         <h2 class="mb-8">A chasser les Electros</h2>
         <p>Débarqué sur l’île sans prévenir au milieu d’une tempête de poussière, c’est grâce à l’énergie cumulé par votre famille tout au long de la semaine que vous parviendrez à battre les électros à chaque fin de semaine !
           Combinez les capacités et les aptitudes de vos TooDoos lors du combat pour triompher et chasser les Electros de l’île !</p>
