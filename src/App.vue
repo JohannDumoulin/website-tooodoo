@@ -78,9 +78,9 @@
 
     <!---------------------------------  Video -------------------------------------->
     <section>
-<!--      <div class="absolute -top-80 -left-32 -z-1">-->
-<!--        <img :src="shapeFifthImg" alt="">-->
-<!--      </div>-->
+      <div class="absolute -top-60 md:-top-60 lg:-top-28 -left-96 md:-left-72 xl:-left-96 2xl:-left-60 z-10 transform scale-25 md:scale-50 xl:scale-100">
+        <img :src="shapeFifthImg" alt="">
+      </div>
       <h2 class="text-center">Mais comment ça se passe ? </h2>
       <video controls width="1356" class="mx-auto mt-16">
         <source src="/media/cc0-videos/flower.mp4"
