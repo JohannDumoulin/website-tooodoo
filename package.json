@@ -3,7 +3,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "deploy": "git checkout deploy && git pull && git merge main && git push && git checkout main"
   },
   "dependencies": {
     "@glidejs/glide": "^3.4.1",
