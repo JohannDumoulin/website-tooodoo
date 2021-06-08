@@ -77,6 +77,7 @@
     </section>
 
     <!---------------------------------  Video -------------------------------------->
+<!--    TODO Fix top position of shape-->
     <section>
       <div class="absolute -top-60 md:-top-60 lg:-top-28 -left-96 md:-left-72 xl:-left-96 2xl:-left-60 z-10 transform scale-25 md:scale-50 xl:scale-100">
         <img :src="shapeFifthImg" alt="">
@@ -94,7 +95,7 @@
       <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 scale-250 -z-20">
         <img :src="shapeBgSecondImg" alt="">
       </div>
-      <div class="w-1/3">
+      <div class="w-full sm:w-3/4 md:w-1/2 lg:w-1/3">
         <h2>Qui sommes-nous ?</h2>
         <p class="mt-8">Etudiants aux Campus Gobelins Annecy, nous sommes une équipe de 3 développeurs et 3 designers. Equipe passionnée où la bonne humeur est toujours au rendez-vous.</p>
       </div>
@@ -138,13 +139,13 @@
 
     <!---------------------------------  Concept -------------------------------------->
     <section>
-      <div class="absolute -top-80 -right-72 -z-1">
+      <div class="absolute -top-96 md:-top-80 -right-96 xl:-right-72 -z-1 transform scale-25 sm:scale-50 xl:scale-100">
         <img :src="shapeSixthImg" alt="">
       </div>
-      <div class="absolute top-32 -left-72 -z-1">
+      <div class="absolute top-32 -left-72 -z-1 transform scale-25 sm:scale-50 xl:scale-100">
         <img :src="shapeSeventhImg" alt="">
       </div>
-      <div class="w-1/2 mx-auto">
+      <div class="w-full sm:w-3/4 lg:w-1/2 mx-auto">
         <h2 class="text-center">Notre concept</h2>
         <p class="mt-8 mb-6">Afin d’aider les familles avec enfants dans l’organisation et la répartition des tâches au sein du foyer, nous proposons une expérience vidéoludique quotidienne qui dure 1 mois.</p>
         <p>Le but de ce jeu est de rassembler l’ensemble des membres de la famille, quelque-soit leur âge, autour d’un objectif commun dans la réalisation de ces tâches. Ainsi, fini la guerre entre enfants et parents pour que chacun effectue ses tâches quotidiennes. </p>

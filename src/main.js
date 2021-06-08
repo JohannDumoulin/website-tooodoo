@@ -10,4 +10,16 @@ new Glide('.glide', {
     perView: 4,
     perTouch: 1,
     gap: 0,
+
+    breakpoints: {
+        530: {
+            perView: 1,
+        },
+        1023: {
+            perView: 2,
+        },
+        1279: {
+            perView: 3,
+        }
+    }
 }).mount()
