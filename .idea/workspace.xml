@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2d9d3b1-a5bf-46fa-8d1b-a0ddf388695c" name="Default Changelist" comment="introduce CI source file">
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    <list default="true" id="b2d9d3b1-a5bf-46fa-8d1b-a0ddf388695c" name="Default Changelist" comment="script for deploy">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1623139685112</updated>
       <workItem from="1623139686677" duration="18110000" />
-      <workItem from="1623173745133" duration="2400000" />
+      <workItem from="1623173745133" duration="2663000" />
     </task>
     <task id="LOCAL-00001" summary="Updates before CI">
       <created>1623174468770</created>
@@ -88,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623176289117</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="script for deploy">
+      <created>1623176437906</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1623176437906</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +117,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Updates before CI" />
     <MESSAGE value="introduce CI source file" />
-    <option name="LAST_COMMIT_MESSAGE" value="introduce CI source file" />
+    <MESSAGE value="script for deploy" />
+    <option name="LAST_COMMIT_MESSAGE" value="script for deploy" />
   </component>
 </project>
