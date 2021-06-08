@@ -83,7 +83,7 @@
       </div>
       <h2 class="text-center">Mais comment ça se passe ? </h2>
       <video controls width="1356" class="mx-auto mt-16">
-        <source src="/media/cc0-videos/flower.mp4"
+        <source :src="videoFile"
                 type="video/mp4">
         Sorry, your browser doesn't support embedded videos.
       </video>
@@ -201,6 +201,7 @@ import shapeFifthImg from './assets/img/shape5.svg'
 import shapeSixthImg from './assets/img/shape6.svg'
 import shapeSeventhImg from './assets/img/shape7.svg'
 import playstoreImg from './assets/img/playstore.svg'
+import videoFile from './assets/media/sample-mp4-file.mp4'
 </script>
 
 <style>
