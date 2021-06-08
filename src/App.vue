@@ -77,9 +77,8 @@
     </section>
 
     <!---------------------------------  Video -------------------------------------->
-<!--    TODO Fix top position of shape-->
     <section>
-      <div class="absolute -top-60 md:-top-60 lg:-top-28 -left-96 md:-left-72 xl:-left-96 2xl:-left-60 z-10 transform scale-25 md:scale-50 xl:scale-100">
+      <div class="absolute -top-72 md:-top-64 -left-96 md:-left-72 xl:-left-96 2xl:-left-60 z-10 transform scale-25 sm:scale-50 xl:scale-100">
         <img :src="shapeFifthImg" alt="">
       </div>
       <h2 class="text-center">Mais comment ça se passe ? </h2>
