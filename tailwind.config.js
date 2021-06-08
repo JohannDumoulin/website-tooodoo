@@ -24,6 +24,9 @@ module.exports = {
         '250': '2.5',
         '300': '3',
       },
+      width: {
+        'fit': 'fit-content',
+      },
       zIndex: {
         '-1': '-1',
         '-10': '-10',
