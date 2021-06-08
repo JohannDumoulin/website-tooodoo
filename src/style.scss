@@ -5,8 +5,8 @@
 }
 
 @font-face {
-  font-family: "TTDongwhacaekR_1";
-  src: url("assets/fonts/TTDongwhacaekR_2.otf") format("truetype"),
+  font-family: "TTDongwhacaekR";
+  src: url("assets/fonts/TTDongwhacaekR.ttf") format("truetype"),
 }
 
 @import "node_modules/@glidejs/glide/src/assets/sass/glide.core";
@@ -52,7 +52,7 @@ h2 {
 }
 
 h2, h3, h4 {
-  font-family: "TTDongwhacaekR_1";
+  font-family: "TTDongwhacaekR";
 }
 
 .Button {
