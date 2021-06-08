@@ -51,16 +51,16 @@
     </section>
 
     <!---------------------------------  Help TooDoos -------------------------------------->
-    <section class="flex justify-between items-center">
+    <section class="flex flex-col lg:flex-row justify-between items-center">
       <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 scale-300 -z-10">
         <img :src="shapeBgFirstImg" alt="">
       </div>
-      <div class="w-2/5">
+      <div class="w-full sm:w-3/4 lg:w-2/5">
         <h2 class="mb-8">Aidez les TooDoos...</h2>
         <p class="mb-6">Ces adorables petites créatures sont les autochtones des îles de l’archipel, à mi-chemin entre des êtres imaginaires et des animaux.</p>
         <p>Pour aider les TooDoos à retrouver leur vie paisible perdue, il vous faudra réaliser les tâches ménagères de votre foyer. Partez à la découverte de leur lieux de vie et transformez la poussière en énergie ! </p>
       </div>
-      <img :src="toodoosImg" alt="Présentation des TooDoos" class="w-1/2">
+      <img :src="toodoosImg" alt="Présentation des TooDoos" class="w-full sm:w-3/4 lg:w-1/2">
     </section>
 
     <!---------------------------------  Electros -------------------------------------->
