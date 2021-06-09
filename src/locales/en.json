@@ -1,3 +1,87 @@
 {
-  "hello": "hello, world!"
+  "header": {
+    "title": "test",
+    "text": "TooDoo Home Adventures vous attend dès maintenant. Venez aider les TooDoos à retrouver la paix sur leur îles en transformant la poussière en énergie !",
+    "button": "C'est parti !",
+    "playstore": "Télécharger - Télécharger -",
+    "alt": {
+      "logoPlaystore": "Logo Playstore",
+      "intro": "Intro Toodoo",
+      "logo": "Logo"
+    }
+  },
+  "worldContainer": {
+    "title": "Pendant 4 semaines",
+    "text": "Vous avez 1 mois pour explorer les 4 îles et réaliser les missions présentes sur chacune d’elles ! Passez d’un univers désertique à un univers sous-marin, en traversant la forêt enchantée, sans oublier le monde glacial !",
+    "enchantedForest": "La forêt enchantée",
+    "submarineWorld": "Le monde sous-marin",
+    "bigIceberg": "Le grand iceberg",
+    "sandDunes": "Les Dunes de sable",
+  },
+  "helpToodoos": {
+    "title": "Aidez les TooDoos...",
+    "textFirst": "Ces adorables petites créatures sont les autochtones des îles de l’archipel, à mi-chemin entre des êtres imaginaires et des animaux.",
+    "textSecond": "Pour aider les TooDoos à retrouver leur vie paisible perdue, il vous faudra réaliser les tâches ménagères de votre foyer. Partez à la découverte de leur lieux de vie et transformez la poussière en énergie !",
+    "alt": "Présentation des TooDoos"
+  },
+  "electros": {
+    "title": "A chasser les Electros",
+    "text": "Débarqué sur l’île sans prévenir au milieu d’une tempête de poussière, c’est grâce à l’énergie cumulé par votre famille tout au long de la semaine que vous parviendrez à battre les électros à chaque fin de semaine ! Combinez les capacités et les aptitudes de vos TooDoos lors du combat pour triompher et chasser les Electros de l’île !",
+    "alt": "Présentation des Electros"
+  },
+  "video": {
+    "title": "Mais comment ça se passe ?"
+  },
+  "team": {
+    "title": "Qui sommes-nous ?",
+    "text": "Etudiants aux Campus Gobelins Annecy, nous sommes une équipe de 3 développeurs et 3 designers. Equipe passionnée où la bonne humeur est toujours au rendez-vous.",
+    "leo": {
+      "name": "Léo",
+      "job": "Développeur",
+      "desc": "De talent",
+      "alt": "Lyo"
+    },
+    "maelys": {
+      "name":  "Maelys",
+      "job":  "Designer",
+      "desc": "De talent",
+      "alt": "Maylo"
+    },
+    "vincent": {
+      "name":  "Vincent",
+      "job":  "Développeur",
+      "desc": "De talent",
+      "alt": "Vinou"
+    },
+    "clothilde": {
+      "name":  "Clothilde",
+      "job":  "Designer",
+      "desc": "De talent",
+      "alt": "Clomo"
+    },
+    "johann": {
+      "name":  "Johann",
+      "job":  "Développeur",
+      "desc": "De talent",
+      "alt": "Joy"
+    },
+    "romain": {
+      "name":  "Romain",
+      "job":  "Designer",
+      "desc": "De talent",
+      "alt": "Romi"
+    }
+  },
+  "concept": {
+    "title": "Notre concept",
+    "textFirst": "Afin d’aider les familles avec enfants dans l’organisation et la répartition des tâches au sein du foyer, nous proposons une expérience vidéoludique quotidienne qui dure 1 mois.",
+    "textSecond": "Le but de ce jeu est de rassembler l’ensemble des membres de la famille, quelque-soit leur âge, autour d’un objectif commun dans la réalisation de ces tâches. Ainsi, fini la guerre entre enfants et parents pour que chacun effectue ses tâches quotidiennes."
+  },
+  "footer": {
+    "alt": {
+      "logoGobelins": "Logo Ecole Gobelins",
+      "logoInternet": "Logo Web",
+      "logoInstagram": "Logo Instagram"
+    }
+  }
 }
