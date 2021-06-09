@@ -14,7 +14,19 @@
       <img :src="introImg" alt="Intro Toodoo" class="mb-8 lg:mb-0 sm:w-1/2 mx-auto">
     </div>
     <a href="" class="hidden sm:inline-block"><img :src="scrollDownImg" alt="Voir plus"></a>
-    <a href="" class="absolute bottom-4 xl:bottom-6 right-2 xl:right-4 transform scale-50 xl:scale-75"><img :src="playstoreImg" alt=""></a>
+    <a href="" class="absolute bottom-8 xl:bottom-12 right-10 xl:right-16">
+      <img :src="playstoreImg" alt="Logo Playstore" class="w-14 xl:w-24">
+      <svg xmlns="http://www.w3.org/2000/svg"
+           xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500" class="curved--text w-200 h-200 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+        <defs>
+          <path d="M137.5,250a112.5,112.5 0 1,0 225,0a112.5,112.5 0 1,0 -225,0" id="textcircle"
+                transform="rotate(90 250 250)" />
+        </defs>
+        <text dx="50" dy="70" class="curved--text__content">
+          <textPath xlink:href="#textcircle" textLength="661">Télécharger - Télécharger -</textPath>
+        </text>
+      </svg>
+    </a>
   </header>
 
   <main>

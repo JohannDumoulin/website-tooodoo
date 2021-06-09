@@ -29,6 +29,7 @@ module.exports = {
         '400': '4',
       },
       width: {
+        '200': '200%',
         'fit': 'fit-content',
       },
       zIndex: {

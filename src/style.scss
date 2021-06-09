@@ -1,3 +1,9 @@
+@keyframes spin {
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
 @font-face {
   font-family: "LeagueSpartan";
   src: url('assets/fonts/LeagueSpartanVariable.woff2') format('woff2-variations');
@@ -122,6 +128,19 @@ h2, h3, h4 {
   h4 {
     margin: 12px 0;
   }
+}
+
+.curved--text {
+  fill: white;
+}
+
+.curved--text__content {
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 12px;
+  animation: spin 10s linear infinite reverse;
+  transform-origin: center;
 }
 
 .translate-x-y-center {
