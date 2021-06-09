@@ -1,6 +1,12 @@
 <template>
   <!---------------------------------  Header -------------------------------------->
   <header class="h-screen px-8 sm:px-16 md:px-28 lg:px-40 py-12 flex flex-col sm:justify-between items-center">
+    <p>{{ t('header.title') }}</p>
+
+    <select v-model="locale">
+      <option value="en">en</option>
+      <option value="fr">fr</option>
+    </select>
     <div class="absolute origin-top-left -top-12 xl:-top-28 left-0 xl:-left-28 -z-1 transform scale-75 sm:scale-50 xl:scale-100">
       <img :src="shapeFirstImg" alt="">
     </div>
@@ -214,6 +220,10 @@ import shapeSixthImg from './assets/img/shape6.svg'
 import shapeSeventhImg from './assets/img/shape7.svg'
 import playstoreImg from './assets/img/playstore.svg'
 import videoFile from './assets/media/sample-mp4-file.mp4'
+
+import { useI18n } from 'vue-i18n'
+
+const { locale, t } = useI18n({ useScope: 'global' })
 </script>
 
 <style>
