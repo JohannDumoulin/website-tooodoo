@@ -215,7 +215,7 @@ import shapeFifthImg from './assets/img/shape5.svg'
 import shapeSixthImg from './assets/img/shape6.svg'
 import shapeSeventhImg from './assets/img/shape7.svg'
 import playstoreImg from './assets/img/playstore.svg'
-import videoFile from './assets/media/sample-mp4-file.mp4'
+import videoFile from './assets/media/video-toodoo.mp4'
 
 import { useI18n } from 'vue-i18n'
 
