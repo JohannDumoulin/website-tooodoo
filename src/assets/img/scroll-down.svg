@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="37" height="63" viewBox="0 0 37 63">
+  <g id="Groupe_1075" data-name="Groupe 1075" transform="translate(-880 -946.519)">
+    <g id="Groupe_1074" data-name="Groupe 1074" transform="translate(880 946.231)">
+      <g id="Rectangle_233" data-name="Rectangle 233" transform="translate(0 0.288)" fill="none" stroke="#feffff" stroke-width="1">
+        <rect width="37" height="63" rx="18.5" stroke="none"/>
+        <rect x="0.5" y="0.5" width="36" height="62" rx="18" fill="none"/>
+      </g>
+    </g>
+    <path id="scroll" d="M17.7,41.413l-8.769-9.27,2.846.087L17.7,38.491l5.888-6.257,2.838-.094Zm0-33.886a1.954,1.954,0,1,0,0,3.907,2.056,2.056,0,0,0,1.747-1.078,1.691,1.691,0,0,0,.207-.875A1.953,1.953,0,0,0,17.7,7.527Zm-.023,7.6a1.954,1.954,0,1,0,1.954,1.954A1.953,1.953,0,0,0,17.68,15.123Zm0,7.815a1.954,1.954,0,1,0,1.954,1.954A1.953,1.953,0,0,0,17.68,22.937Zm0,0" transform="translate(880.954 954.406)" fill="#fff"/>
+  </g>
+</svg>

@@ -16,7 +16,17 @@
       </div>
       <img :src="introImg" :alt="t('header.alt.intro')" class="mb-8 lg:mb-0 sm:w-1/2 mx-auto">
     </div>
-    <a href="#sectionFirst" class="scroll-js hidden sm:inline-block"><img :src="scrollDownImg" alt="Voir plus"></a>
+<!--    Scroll down marker -->
+    <a href="#sectionFirst" class="scroll-js hidden sm:inline-block">
+      <svg xmlns="http://www.w3.org/2000/svg" width="37" height="63" viewBox="0 0 37 63">
+        <path id="Tracé_2" class="path-border" data-name="Tracé 2" d="M1107.909,510.523h0a18,18,0,0,1,18,18v26a18,18,0,0,1-18,18h0a18,18,0,0,1-18-18v-26A18,18,0,0,1,1107.909,510.523Z" transform="translate(-1089.409 -510.023)" fill="none" stroke="#feffff" stroke-width="1"/>
+        <path id="scroll" d="M1108.063,559.323l-8.769-9.27,2.846.087,5.923,6.261,5.888-6.257,2.838-.094Z" transform="translate(-1089.794 -510.937)" fill="#fff"/>
+        <path id="scroll-2" class="path-point" data-name="scroll" d="M1108.04,540.852a1.944,1.944,0,1,0,1.385.57A1.945,1.945,0,0,0,1108.04,540.852Z" transform="translate(-1089.794 -510.937)" fill="#fff"/>
+        <path id="scroll-3" class="path-point" data-name="scroll" d="M1108.04,533.037a1.945,1.945,0,1,0,1.384.57A1.947,1.947,0,0,0,1108.04,533.037Z" transform="translate(-1089.794 -510.937)" fill="#fff"/>
+        <path id="scroll-4" class="path-point" data-name="scroll" d="M1108.063,525.437a1.954,1.954,0,1,0-.089,3.907h.089a2.058,2.058,0,0,0,1.747-1.078,1.7,1.7,0,0,0,.207-.875,1.954,1.954,0,0,0-1.952-1.954Z" transform="translate(-1089.794 -510.937)" fill="#fff"/>
+      </svg>
+    </a>
+<!--    -->
     <a href="https://app.toodoo.games/" target="_blank" class="absolute bottom-8 xl:bottom-12 right-10 xl:right-16">
       <img :src="playstoreImg" :alt="t('header.alt.logoPlaystore')" class="w-14 xl:w-24">
       <svg xmlns="http://www.w3.org/2000/svg"
@@ -189,7 +199,6 @@
 //Import images
 import logoImg from './assets/img/logo.png'
 import introImg from './assets/img/intro.png'
-import scrollDownImg from './assets/img/scroll-down.png'
 import enchantedForestImg from './assets/img/enchanted-forest.png'
 import submarineWorldImg from './assets/img/submarine-world.png'
 import bigIcebergImg from './assets/img/big-iceberg.png'
@@ -229,9 +238,5 @@ const { locale, t } = useI18n({ useScope: 'global' })
   -moz-osx-font-smoothing: grayscale;
   color: white;
   overflow: hidden;
-}
-
-html {
-  scroll-behavior: smooth;
 }
 </style>

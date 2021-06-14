@@ -1,9 +1,9 @@
 {
   "header": {
     "title": "test",
-    "text": "TooDoo Home Adventures vous attend dès maintenant. Venez aider les TooDoos à retrouver la paix sur leur îles en transformant la poussière en énergie !",
-    "button": "C'est parti !",
-    "playstore": "Télécharger - Télécharger -",
+    "text": "TooDoo Home Adventures is waiting for you now. Come and help the TooDoos find peace on their island by turning dust into energy!",
+    "button": "Let's go !",
+    "playstore": "Download - Download -",
     "alt": {
       "logoPlaystore": "Logo Playstore",
       "intro": "Intro Toodoo",
@@ -11,71 +11,71 @@
     }
   },
   "worldContainer": {
-    "title": "Pendant 4 semaines",
-    "text": "Vous avez 1 mois pour explorer les 4 îles et réaliser les missions présentes sur chacune d’elles ! Passez d’un univers désertique à un univers sous-marin, en traversant la forêt enchantée, sans oublier le monde glacial !",
-    "enchantedForest": "La forêt enchantée",
-    "submarineWorld": "Le monde sous-marin",
-    "bigIceberg": "Le grand iceberg",
-    "sandDunes": "Les Dunes de sable",
+    "title": "During 4 weeks...",
+    "text": "You have 1 month to explore the 4 islands and complete the missions on each of them! Go from a desert world to an underwater world, through the enchanted forest, without forgetting the icy world!",
+    "enchantedForest": "The enchanted forest",
+    "submarineWorld": "The submarine world",
+    "bigIceberg": "The big iceberg",
+    "sandDunes": "The sand dunes",
   },
   "helpToodoos": {
-    "title": "Aidez les TooDoos...",
-    "textFirst": "Ces adorables petites créatures sont les autochtones des îles de l’archipel, à mi-chemin entre des êtres imaginaires et des animaux.",
-    "textSecond": "Pour aider les TooDoos à retrouver leur vie paisible perdue, il vous faudra réaliser les tâches ménagères de votre foyer. Partez à la découverte de leur lieux de vie et transformez la poussière en énergie !",
+    "title": "...help TooDoos...",
+    "textFirst": "These adorable little creatures are the natives of the islands of the archipelago, halfway between imaginary beings and animals.",
+    "textSecond": "To help the TooDoos regain their lost peaceful life, you will have to do the household chores in your home. Discover their living spaces and turn dust into energy!",
     "alt": "Présentation des TooDoos"
   },
   "electros": {
-    "title": "A chasser les Electros",
-    "text": "Débarqué sur l’île sans prévenir au milieu d’une tempête de poussière, c’est grâce à l’énergie cumulé par votre famille tout au long de la semaine que vous parviendrez à battre les électros à chaque fin de semaine ! Combinez les capacités et les aptitudes de vos TooDoos lors du combat pour triompher et chasser les Electros de l’île !",
+    "title": "...to drive away the Electros !",
+    "text": "Arriving on the island without warning in the middle of a dust storm, it is thanks to the energy accumulated by your family throughout the week that you will manage to beat the electros every weekend! Combine the abilities and skills of your TooDoos in battle to triumph and drive the Electros off the island!",
     "alt": "Présentation des Electros"
   },
   "video": {
-    "title": "Mais comment ça se passe ?"
+    "title": "But how does it works ?"
   },
   "team": {
-    "title": "Qui sommes-nous ?",
-    "text": "Etudiants aux Campus Gobelins Annecy, nous sommes une équipe de 3 développeurs et 3 designers. Equipe passionnée où la bonne humeur est toujours au rendez-vous.",
+    "title": "Who are we ?",
+    "text": "Students at Campus Gobelins Annecy, we are a team of 3 developers and 3 designers. A passionate team where good humour is always present.",
     "leo": {
       "name": "Léo",
-      "job": "Développeur",
-      "desc": "De talent",
+      "job": "Developer",
+      "desc": "Thanks to him the game comes to life, he has a solution to every problem even if he annoys us with Linux.",
       "alt": "Lyo"
     },
     "maelys": {
       "name":  "Maelys",
       "job":  "Designer",
-      "desc": "De talent",
+      "desc": "A maniac of aesthetics, she knows how to embellish all illustrations to perfection!",
       "alt": "Maylo"
     },
     "vincent": {
       "name":  "Vincent",
-      "job":  "Développeur",
-      "desc": "De talent",
+      "job":  "Developer",
+      "desc": "Although he is a front small prince , he motivates the team as he would on the rugby field.",
       "alt": "Vinou"
     },
     "clothilde": {
       "name":  "Clothilde",
       "job":  "Designer",
-      "desc": "De talent",
+      "desc": "UX/UI have no secrets for her, her gentleness and rigour work miracles!",
       "alt": "Clomo"
     },
     "johann": {
       "name":  "Johann",
-      "job":  "Développeur",
-      "desc": "De talent",
+      "job":  "Developer",
+      "desc": "He turns your models into a line of code as fast as he drives his classic car!",
       "alt": "Joy"
     },
     "romain": {
       "name":  "Romain",
       "job":  "Designer",
-      "desc": "De talent",
+      "desc": "With a passion for music and an unerring sense of rhythm, Romain is the king of motion and sound design.",
       "alt": "Romi"
     }
   },
   "concept": {
     "title": "Notre concept",
-    "textFirst": "Afin d’aider les familles avec enfants dans l’organisation et la répartition des tâches au sein du foyer, nous proposons une expérience vidéoludique quotidienne qui dure 1 mois.",
-    "textSecond": "Le but de ce jeu est de rassembler l’ensemble des membres de la famille, quelque-soit leur âge, autour d’un objectif commun dans la réalisation de ces tâches. Ainsi, fini la guerre entre enfants et parents pour que chacun effectue ses tâches quotidiennes."
+    "textFirst": "In order to help families with children in the organisation and distribution of tasks in the home, we offer a daily video experience lasting 1 month.",
+    "textSecond": "The aim of this game is to bring together all the members of the family, whatever their age, around a common objective in carrying out these tasks. This way, the war between children and parents to get everyone to do their daily chores is over."
   },
   "footer": {
     "alt": {

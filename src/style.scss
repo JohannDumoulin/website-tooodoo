@@ -4,6 +4,24 @@
   }
 }
 
+@keyframes dash {
+  from {
+    stroke-dashoffset: 190;
+  }
+  to {
+    stroke-dashoffset: 20;
+  }
+}
+
+@keyframes magnification {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
 @font-face {
   font-family: "LeagueSpartan";
   src: url('assets/fonts/LeagueSpartanVariable.woff2') format('woff2-variations');
@@ -28,7 +46,7 @@ html, body {
 
 body {
   background: rgb(2,0,36);
-  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(31,10,98,1) 0%, rgba(110,98,180,1) 75%, rgba(181,177,254,1) 100%);
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgb(31, 10, 98) 0%, rgba(110,98,180,1) 75%, rgba(181,177,254,1) 100%);
   overflow-x: hidden;
 }
 
@@ -145,4 +163,16 @@ h2, h3, h4 {
 
 .translate-x-y-center {
   transform: translateY(-50%) translateX(-50%);
+}
+
+.path-border {
+  stroke-dasharray: 190;
+  stroke-dashoffset: 20;
+  animation: dash 1.5s both ease-in-out 2s;
+}
+
+.path-point {
+  //transform: scale(1);
+  //transform-origin: center;
+  //animation: magnification 1.5s ease-in-out 2s;
 }

@@ -11,7 +11,7 @@
     }
   },
   "worldContainer": {
-    "title": "Pendant 4 semaines",
+    "title": "Pendant 4 semaines...",
     "text": "Vous avez 1 mois pour explorer les 4 îles et réaliser les missions présentes sur chacune d’elles ! Passez d’un univers désertique à un univers sous-marin, en traversant la forêt enchantée, sans oublier le monde glacial !",
     "enchantedForest": "La forêt enchantée",
     "submarineWorld": "Le monde sous-marin",
@@ -19,14 +19,14 @@
     "sandDunes": "Les Dunes de sable",
   },
   "helpToodoos": {
-    "title": "Aidez les TooDoos...",
+    "title": "...aidez les TooDoos...",
     "textFirst": "Ces adorables petites créatures sont les autochtones des îles de l’archipel, à mi-chemin entre des êtres imaginaires et des animaux.",
-    "textSecond": "Pour aider les TooDoos à retrouver leur vie paisible perdue, il vous faudra réaliser les tâches ménagères de votre foyer. Partez à la découverte de leur lieux de vie et transformez la poussière en énergie !",
+    "textSecond": "Pour aider les TooDoos à retrouver leur vie paisible perdue, il vous faudra réaliser les tâches ménagères de votre foyer. Partez à la découverte de leurs lieux de vie et transformez la poussière en énergie !",
     "alt": "Présentation des TooDoos"
   },
   "electros": {
-    "title": "A chasser les Electros",
-    "text": "Débarqué sur l’île sans prévenir au milieu d’une tempête de poussière, c’est grâce à l’énergie cumulé par votre famille tout au long de la semaine que vous parviendrez à battre les électros à chaque fin de semaine ! Combinez les capacités et les aptitudes de vos TooDoos lors du combat pour triompher et chasser les Electros de l’île !",
+    "title": "...à chasser les Electros",
+    "text": "Débarqué sur l’île sans prévenir au milieu d’une tempête de poussière, c’est grâce à l’énergie cumulée par votre famille tout au long de la semaine que vous parviendrez à battre les électros chaque fin de semaine ! Combinez les capacités et les aptitudes de vos TooDoos lors du combat pour triompher et chasser les Electros de l’île !",
     "alt": "Présentation des Electros"
   },
   "video": {
@@ -38,37 +38,37 @@
     "leo": {
       "name": "Léo",
       "job": "Développeur",
-      "desc": "De talent",
+      "desc": "Grâce à lui le jeu prend vie, il a une solution à tous les problèmes même si il nous embête avec Linux.",
       "alt": "Lyo"
     },
     "maelys": {
       "name":  "Maelys",
       "job":  "Designer",
-      "desc": "De talent",
+      "desc": "Maniaque de l'esthétisme, elle sait embellir toutes illustrations jusqu'à la perfection !",
       "alt": "Maylo"
     },
     "vincent": {
       "name":  "Vincent",
       "job":  "Développeur",
-      "desc": "De talent",
+      "desc": "Bien que petit prince du front, il motive l'équipe comme il le ferait sur un terrai de rugby.",
       "alt": "Vinou"
     },
     "clothilde": {
       "name":  "Clothilde",
       "job":  "Designer",
-      "desc": "De talent",
+      "desc": "L'UX/UI n'ont aucun secret pour elle, sa douceur et sa rigueur font des miracles !",
       "alt": "Clomo"
     },
     "johann": {
       "name":  "Johann",
       "job":  "Développeur",
-      "desc": "De talent",
+      "desc": "Il transforme vos maquettes en ligne de code aussi vite qu'au volant de sa voiture de collection !",
       "alt": "Joy"
     },
     "romain": {
       "name":  "Romain",
       "job":  "Designer",
-      "desc": "De talent",
+      "desc": "Passioné par la musique et dôté d'un sens du rythme infaillible, Romain est le roi du motion design et du sound design.",
       "alt": "Romi"
     }
   },
