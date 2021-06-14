@@ -1,4 +1,5 @@
 <template>
+<!--  TODO target blank-->
   <!---------------------------------  Header -------------------------------------->
   <header class="h-screen px-8 sm:px-16 md:px-28 lg:px-40 py-12 flex flex-col sm:justify-between items-center">
     <div class="absolute top-6 sm:top-12 right-6 sm:right-12">
@@ -41,7 +42,7 @@
       <div class="absolute origin-top-left top-72 -left-72 sm:-left-48 -z-1">
         <img :src="shapeThirdImg" alt="">
       </div>
-      <div class="w-full md:w-1/2 lg:w-1/3 mx-auto">
+      <div class="w-full md:w-3/5 mx-auto">
         <h2 class="text-center mb-8">{{ t('worldContainer.title') }}</h2>
         <p>{{ t('worldContainer.text') }}</p>
       </div>
@@ -108,7 +109,7 @@
       <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 scale-400 sm:scale-250 -z-20">
         <img :src="shapeBgSecondImg" alt="">
       </div>
-      <div class="w-full sm:w-3/4 md:w-1/2 lg:w-1/3">
+      <div class="w-full sm:w-3/4 md:w-1/2 xl:w-1/3">
         <h2>{{ t('team.title') }}</h2>
         <p class="mt-8">{{ t('team.text') }}</p>
       </div>
@@ -158,7 +159,7 @@
       <div class="absolute top-32 -left-72 -z-1 transform scale-25 sm:scale-50 xl:scale-100">
         <img :src="shapeSeventhImg" alt="">
       </div>
-      <div class="w-full sm:w-3/4 lg:w-1/2 mx-auto">
+      <div class="w-full sm:w-3/4 xl:w-1/2 mx-auto">
         <h2 class="text-center">{{ t('concept.title') }}</h2>
         <p class="mt-8 mb-6">{{ t('concept.textFirst') }}</p>
         <p>{{ t('concept.textSecond') }}</p>
