@@ -12,12 +12,12 @@
       <div class="lg:w-2/5">
         <h2>{{ t('header.title') }}</h2>
         <p class="my-8">{{ t('header.text') }}</p>
-        <a href="" class="Button rounded-xl py-2 px-10 inline-block">{{ t('header.button') }}</a>
+        <a href="#sectionFirst" class="scroll-js Button rounded-xl py-2 px-10 inline-block">{{ t('header.button') }}</a>
       </div>
       <img :src="introImg" :alt="t('header.alt.intro')" class="mb-8 lg:mb-0 sm:w-1/2 mx-auto">
     </div>
-    <a href="" class="hidden sm:inline-block"><img :src="scrollDownImg" alt="Voir plus"></a>
-    <a href="" class="absolute bottom-8 xl:bottom-12 right-10 xl:right-16">
+    <a href="#sectionFirst" class="scroll-js hidden sm:inline-block"><img :src="scrollDownImg" alt="Voir plus"></a>
+    <a href="https://app.toodoo.games/" class="absolute bottom-8 xl:bottom-12 right-10 xl:right-16">
       <img :src="playstoreImg" :alt="t('header.alt.logoPlaystore')" class="w-14 xl:w-24">
       <svg xmlns="http://www.w3.org/2000/svg"
            xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500" class="curved--text w-200 h-200 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
@@ -32,9 +32,9 @@
     </a>
   </header>
 
-  <main>
+  <main id="main">
     <!---------------------------------  World Container ------------------------------------->
-    <section>
+    <section id="sectionFirst">
       <div class="absolute origin-top-left -top-40 xl:-top-72 -right-52 xl:-right-28 -z-1 transform scale-50 xl:scale-100">
         <img :src="shapeSecondImg" alt="">
       </div>
@@ -170,11 +170,11 @@
   <footer class="flex flex-col md:flex-row justify-center px-8 sm:px-16 md:px-28 lg:px-40 py-16 sm:py-28">
     <a href="https://www.lecole-cci.fr/" class="w-3/4 sm:w-1/2 md:w-auto md:mr-24 mx-auto mb-16 md:mb-0"><img :src="gobelinsImg" :alt="t('footer.alt.logoGobelins')" class=""></a>
     <div class="flex flex-col justify-center md:w-auto mx-auto w-fit">
-      <a href="" class="flex items-center mb-4 w-fit">
+      <a href="https://app.toodoo.games/" class="flex items-center mb-4 w-fit">
         <img :src="logoInternetImg" :alt="t('footer.alt.logoInternet')" class="mr-4">
         <p>toodooapp.com</p>
       </a>
-      <a href="" class="flex items-center w-fit">
+      <a href="https://www.instagram.com/" class="flex items-center w-fit">
         <img :src="logoInstagramImg" :alt="t('footer.alt.logoInstagram')" class="mr-4">
         <p>toodoo_app</p>
       </a>
@@ -229,5 +229,9 @@ const { locale, t } = useI18n({ useScope: 'global' })
   -moz-osx-font-smoothing: grayscale;
   color: white;
   overflow: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 </style>
