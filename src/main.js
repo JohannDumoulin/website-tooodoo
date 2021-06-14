@@ -30,10 +30,10 @@ new Glide('.glide', {
         530: {
             perView: 1,
         },
-        1023: {
+        1279: {
             perView: 2,
         },
-        1279: {
+        1440: {
             perView: 3,
         }
     }
