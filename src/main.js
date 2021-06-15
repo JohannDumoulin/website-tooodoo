@@ -9,6 +9,7 @@ import { createI18n } from 'vue-i18n'
  */
 import en from './locales/en.json'
 import fr from './locales/fr.json'
+import VueScrollReveal from "vue-scroll-reveal";
 
 const i18n = createI18n({
     locale: 'fr',
@@ -18,7 +19,11 @@ const i18n = createI18n({
     }
 })
 
-createApp(App).use(i18n).mount('#app')
+const app = createApp(App)
+app
+    .use(i18n)
+    // .use(VueScrollReveal)
+    .mount('#app')
 
 new Glide('.glide', {
     type: 'carousel',

@@ -1,6 +1,6 @@
 <template>
   <!---------------------------------  Header -------------------------------------->
-  <header class="h-screen px-8 sm:px-16 md:px-28 lg:px-40 py-12 flex flex-col sm:justify-between items-center">
+  <header class="v-scroll-reveal h-screen px-8 sm:px-16 md:px-28 lg:px-40 py-12 flex flex-col sm:justify-between items-center">
     <div class="absolute top-6 sm:top-12 right-6 sm:right-12">
       <p><span :class="{'font-bold': locale === 'fr'}" @click="locale = 'fr'" class="cursor-pointer">Fr</span> / <span :class="{'font-bold': locale === 'en'}" @click="locale = 'en'" class="cursor-pointer">En</span></p>
     </div>
