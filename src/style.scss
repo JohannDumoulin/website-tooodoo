@@ -13,12 +13,12 @@
   }
 }
 
-@keyframes magnification {
+@keyframes opacity {
   from {
-    transform: scale(0);
+    opacity: 0;
   }
   to {
-    transform: scale(1);
+    opacity: 1;
   }
 }
 
@@ -176,11 +176,25 @@ h2, h3, h4 {
 .path-border {
   stroke-dasharray: 190;
   stroke-dashoffset: 20;
-  animation: dash 1.5s both ease-in-out 2s;
+  animation: dash 0.9s both ease-in-out 1s;
 }
 
-.path-point {
-  //transform: scale(1);
-  //transform-origin: center;
-  //animation: magnification 1.5s ease-in-out 2s;
+.path-point-first {
+  opacity: 0;
+  animation: opacity 0.3s both ease-in-out 1s;
+}
+
+.path-point-second {
+  opacity: 0;
+  animation: opacity 0.3s both ease-in-out 1.3s;
+}
+
+.path-point-third {
+  opacity: 0;
+  animation: opacity 0.3s both ease-in-out 1.6s;
+}
+
+.path-arrow {
+  opacity: 0;
+  animation: opacity 0.3s both ease-in-out 1.9s;
 }
