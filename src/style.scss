@@ -81,6 +81,13 @@ h2, h3, h4 {
 
 .Button {
   background-color: #AE91FF;
+  box-sizing: border-box;
+  border: 2px solid #AE91FF;
+  transition: background-color 0.3s ease-in-out;
+
+  &:hover {
+    background-color: transparent;
+  }
 }
 
 .Scroll-down {
